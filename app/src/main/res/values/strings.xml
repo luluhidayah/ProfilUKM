@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Profil UKM</string>
+    <string name="desk_ukm">Selamat Datang di Aplikasi Student Activity Politeknik Negeri Lampung. Layanan Aplikasi Student Activity Polinela merupakan salah satu bentuk dalam penyebarluasan informasi tentang Kemahasiswaan yang ada di Politeknik Negeri Lampung.</string>
+    <string name="desk_ukm2"> Student Activities Polinela adalah layanan yang ditujukan untuk Unit Kegiatan Mahasiswa (UKM), yang merujuk pada  organisasi atau kelompok kegiatan yang terbentuk di lingkungan perguruan tinggi yang dikelola dan diikuti oleh mahasiswa. UKM bertujuan untuk memberikan wadah kepada mahasiswa untuk mengembangkan minat, bakat,
+        dan keterampilan di luar kegiatan akademik.</string>
+    <string name="List_ukm">List UKM</string>
+    <string name="ukm1">Studi Mahasiswa Riset Terapan</string>
+    <string name="ukm2">Seni dan Budaya</string>
+    <string name="ukm3">Persatuan Suara Kreatifitas Mahasiswa</string>
+    <string name="ukm5">Politeknik Pencinta Alam Lampung</string>
+    <string name="ukm6">Koperasi Mahasiswa</string>
+    <string name="ukm7">Olahraga</string>
+    <string name="ukm8">Al Banna</string>
+    <string name="ukm9">Garda Kedisiplinan</string>
+    <string name="ukm10">English Club</string>
+    <string name="tentang">"Student Activity di Politeknik Negeri Lampung (POLINELA) adalah serangkaian kegiatan yang diadakan untuk melengkapi pengalaman belajar mahasiswa di luar lingkup akademis. Aktivitas ini bertujuan untuk mengembangkan keterampilan, bakat, kepemimpinan, dan jaringan sosial mahasiswa. \n Kegiatan student activity di POLINELA bertujuan untuk melengkapi pendidikan formal yang diberikan oleh institusi, membantu mahasiswa untuk mengembangkan diri secara holistik, serta mempersiapkan mereka untuk menghadapi dunia kerja dengan keterampilan yang lebih luas. "</string>
+</resources>

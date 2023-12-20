@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="343dp"
+            android:layout_height="959dp"
+            android:scaleType="fitStart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/top_bg" />
+
+        <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Welcome To"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:text="Politeknik Pecinta Alam Lampung"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/judul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="64dp" />
+    <TextView
+        android:id="@+id/visi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="VISI: Membentuk Kepribadian Mahasiswa yang Kreatif dan bertanggung jawab terhadap lingkungan masyarakat"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama"/>
+    <TextView
+        android:id="@+id/misi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="MISI: Mewujudkan sumberdaya manusia yang peka terhadap alam dan lingkungan untuk melaksanakan fungsi sosial dan ikut serta mengatasi masalah alam, sosial dan lingkungan"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/visi" />
+
+        <TextView
+            android:id="@+id/tv_agenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Agenda Ukm Poltapala: \n * Latihan Pemantapan \n * Hari Peduli Sampah Nasional \n * Pelatihan Keorganisasian \n * Jambore Nasional \n * Lomba Lintas Alam Poltapala Nasional \n * Pendidikan Dasar \n * Latihan Dasar \n * Musyawarah Besar."
+            android:textColor="#050505"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/misi"
+            tools:layout_editor_absoluteX="52dp" />
+    <TextView
+        android:id="@+id/tv_pencapaian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"
+        android:text="Pencapaian Ukm Poltapala: \n *Tahun 2016: UKM Teraktif \n *Tahun 2017: Juara III Lomba Lintas Alam Lereng Timur Gunung Tanggamus \n *Tahun 2019: Juara VII Lomba Lintas Alam Pemuda Se-Sumbagsel "
+        android:textColor="#050505"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_agenda"
+        android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="465dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="-5dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img1"
+                android:layout_marginBottom="10dp"
+                android:text="Follow Us On Sosial Media dan Kontak Berikut Ini:"
+                android:textColor="#050505"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+
+                app:cardBackgroundColor="#e6ccb3">
+
+                <TextView
+                    android:id="@+id/nmhlmn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="80dp"
+                    android:text="Instagram"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="537dp" />
+
+                <ImageView
+                    android:id="@+id/hlmnimage1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/instagram" />
+
+                <TextView
+                    android:id="@+id/tv_ig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="80dp"
+                    android:paddingTop="30dp"
+                    android:text="(@poltapala_lampung)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+
+                app:cardBackgroundColor="#e6ccb3">
+
+                <TextView
+                    android:id="@+id/nmhlmn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="80dp"
+                    android:text="Telepon"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="25dp"
+                    tools:layout_editor_absoluteY="537dp" />
+
+                <ImageView
+                    android:id="@+id/hlmnimage2"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/telepon" />
+
+                <TextView
+                    android:id="@+id/tv_telepon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="80dp"
+                    android:paddingTop="30dp"
+                    android:text="(085456783290)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
